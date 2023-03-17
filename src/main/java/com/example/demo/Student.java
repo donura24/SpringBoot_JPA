@@ -39,12 +39,11 @@ public class Student {
             nullable = false)
     private Integer age;
 
-    public Student(Long id,
+    public Student(
                    String firstname,
                    String lastName,
                    String email,
                    Integer age) {
-        this.id = id;
         this.firstName = firstname;
         this.lastName = lastName;
         this.email = email;
